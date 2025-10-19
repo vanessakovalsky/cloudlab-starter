@@ -1,6 +1,22 @@
 # 🌩️ CloudLab Starter 🚀
 
+![Made with Terraform](https://img.shields.io/badge/Made%20with-Terraform-623CE4?logo=terraform&logoColor=white)
+![Supports GCP](https://img.shields.io/badge/Cloud-GCP-blue?logo=google-cloud&logoColor=white)
+![Dockerized](https://img.shields.io/badge/Docker-Ready-0db7ed?logo=docker&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
+
 **CloudLab Starter** est un mini-lab DevOps pour apprendre à déployer une application sur Google Cloud avec **Terraform** et **Docker** — sans prise de tête.
+
+## 🧭 Workflow général
+
+```mermaid
+graph LR
+    A[💻 Code Source] --> B[⚙️ Terraform]
+    B --> C[☁️ Google Cloud Platform]
+    C --> D[🐳 Docker Container]
+    D --> E[🚀 Application déployée]
+```
 
 ## 🚀 Objectifs
 
