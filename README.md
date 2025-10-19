@@ -8,15 +8,18 @@
 
 **CloudLab Starter** est un mini-lab DevOps pour apprendre à déployer une application sur Google Cloud avec **Terraform** et **Docker** — sans prise de tête.
 
+## 📘 Sommaire
+- [Workflow général](#-workflow-général)
+- [Objectifs](#-objectifs)
+- [Contenu](#-contenu)
+- [Prérequis](#-prérequis)
+- [Étapes rapides](#-étapes-rapides)
+- [Aller plus loin avec CloudLab Pro](#-tu-veux-aller-plus-loin-)
+
+
 ## 🧭 Workflow général
 
-```mermaid
-graph LR
-    A[💻 Code Source] --> B[⚙️ Terraform]
-    B --> C[☁️ Google Cloud Platform]
-    C --> D[🐳 Docker Container]
-    D --> E[🚀 Application déployée]
-```
+![CloudLab Workflow](assets/architecture.png)
 
 ## 🚀 Objectifs
 
@@ -64,7 +67,7 @@ docker build -t cloudlab-app .
 docker run -p 8080:8080 cloudlab-app
 ```
 
-🌟 Tu veux aller plus loin ?
+## 🌟 Tu veux aller plus loin ?
 
 La version complète CloudLab Pro inclut :
 
@@ -76,7 +79,9 @@ La version complète CloudLab Pro inclut :
 
 * Guide PDF complet (30 pages)
 
-👉 Découvre CloudLab Pro ici
+💡 Passe à **[CloudLab Pro](#)**  
+et déploie automatiquement ton app sur GKE avec **CI/CD GitLab**.  
+> Inclut Kubernetes, pipeline complet, guide PDF (30 pages) et mises à jour gratuites.
 
 🪪 Licence
 
