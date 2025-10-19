@@ -13,11 +13,12 @@
 
 ## 📦 Contenu
 
+```
 cloudlab-starter/
 ├── 01_infrastructure/ # Terraform (réseau + VM)
 ├── 02_application/ # App + Dockerfile
 └── guide/ # Documentation d’installation
-
+```
 
 ---
 
@@ -51,13 +52,13 @@ docker run -p 8080:8080 cloudlab-app
 
 La version complète CloudLab Pro inclut :
 
-    Kubernetes (GKE)
+* Kubernetes (GKE)
 
-    CI/CD GitLab automatisé
+* CI/CD GitLab automatisé
 
-    Monitoring basique
+* Monitoring basique
 
-    Guide PDF complet (30 pages)
+* Guide PDF complet (30 pages)
 
 👉 Découvre CloudLab Pro ici
 
