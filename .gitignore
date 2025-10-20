@@ -1,0 +1,44 @@
+# === Terraform ===
+# Dossiers de travail locaux
+.terraform/
+.terraform.lock.hcl
+
+# Fichiers d'état sensibles
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*.tfvars.json
+
+# Variables locales (contient souvent des clés ou IDs projet)
+terraform.tfvars
+
+# Fichiers de logs et sorties
+*.log
+*.backup
+
+# Fichiers de configuration temporaires
+*.auto.tfvars
+*.bak
+
+# === OS & éditeurs ===
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+
+# === Docker / CI ===
+*.e*
